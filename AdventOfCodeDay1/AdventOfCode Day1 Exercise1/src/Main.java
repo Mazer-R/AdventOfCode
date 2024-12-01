@@ -8,7 +8,7 @@ public class Main {
         List<Integer> secondRow = new ArrayList<>();
         int result = 0;
 
-        File file = new File("data.txt");
+        File file = new File("AdventOfCodeDay1/data.txt");
         Scanner scanner = new Scanner(file);
         ArrayList<Integer> temporalVessel = new ArrayList<>();
         while (scanner.hasNextLine()) {
